@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include "../tinyxloader.h"
+#include "../tinyxfileloader.h"
 
 TEST(XFileLoadTest, Basic)
 {

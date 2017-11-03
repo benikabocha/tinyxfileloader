@@ -4,7 +4,7 @@
 //
 
 #define TINYXLOADER_IMPLEMENTATION
-#include "tinyxloader.h"
+#include "tinyxfileloader.h"
 
 void Usage()
 {

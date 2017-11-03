@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 
 #define TINYXLOADER_IMPLEMENTATION
-#include "../tinyxloader.h"
+#include "../tinyxfileloader.h"
 
 int main(int argc, char** argv)
 {
