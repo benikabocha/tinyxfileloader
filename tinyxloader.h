@@ -1,3 +1,8 @@
+//
+// Copyright(c) 2017 benikabocha.
+// Distributed under the MIT License (http://opensource.org/licenses/MIT)
+//
+
 #ifndef TINYXLOADER_H_
 #define TINYXLOADER_H_
 

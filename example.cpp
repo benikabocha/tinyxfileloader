@@ -1,3 +1,8 @@
+//
+// Copyright(c) 2017 benikabocha.
+// Distributed under the MIT License (http://opensource.org/licenses/MIT)
+//
+
 #define TINYXLOADER_IMPLEMENTATION
 #include "tinyxloader.h"
 
