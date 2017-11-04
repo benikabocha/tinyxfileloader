@@ -319,9 +319,9 @@ bool XFileLoader::ReadMeshNormals(Mesh& mesh) {
             return false;
         }
 
-        if (!ReadInt(mesh.m_positionFaces[i].v1, ',') ||
-            !ReadInt(mesh.m_positionFaces[i].v2, ',') ||
-            !ReadInt(mesh.m_positionFaces[i].v3, ';')) {
+        if (!ReadInt(mesh.m_normalFaces[i].v1, ',') ||
+            !ReadInt(mesh.m_normalFaces[i].v2, ',') ||
+            !ReadInt(mesh.m_normalFaces[i].v3, ';')) {
             return false;
         }
 

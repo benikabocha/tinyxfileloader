@@ -49,9 +49,17 @@ TEST(XFileLoadTest, Basic)
         const auto& mesh = frame->m_mesh;
         EXPECT_EQ(22, mesh.m_positions.size());
         EXPECT_EQ(12, mesh.m_positionFaces.size());
+        auto pf = mesh.m_positionFaces[0];
+        EXPECT_EQ(0, pf.v1);
+        EXPECT_EQ(1, pf.v2);
+        EXPECT_EQ(2, pf.v3);
 
         EXPECT_EQ(22, mesh.m_normals.size());
         EXPECT_EQ(12, mesh.m_normalFaces.size());
+        auto nf = mesh.m_normalFaces[0];
+        EXPECT_EQ(0, nf.v1);
+        EXPECT_EQ(1, nf.v2);
+        EXPECT_EQ(2, nf.v3);
 
         EXPECT_EQ(22, mesh.m_textureCoords.size());
 
