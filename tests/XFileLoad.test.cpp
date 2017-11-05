@@ -47,6 +47,7 @@ TEST(XFileLoadTest, Basic)
         EXPECT_EQ(0, frame->m_childFrames.size());
 
         const auto& mesh = frame->m_mesh;
+        EXPECT_STREQ("Cube", mesh.m_name.c_str());
         EXPECT_EQ(22, mesh.m_positions.size());
         EXPECT_EQ(12, mesh.m_positionFaces.size());
         auto pf = mesh.m_positionFaces[0];
@@ -114,6 +115,7 @@ TEST(XFileLoadTest, Frame)
         EXPECT_EQ(xfile.m_frames[1].get(), frame->m_childFrames[0]);
 
         const auto& mesh = frame->m_mesh;
+        EXPECT_STREQ("Cube", mesh.m_name.c_str());
         EXPECT_EQ(22, mesh.m_positions.size());
         EXPECT_EQ(12, mesh.m_positionFaces.size());
 
@@ -200,6 +202,7 @@ TEST(XFileLoadTest, Frame)
         EXPECT_EQ(0, frame->m_childFrames.size());
 
         const auto& mesh = frame->m_mesh;
+        EXPECT_STREQ("C02_Cube", mesh.m_name.c_str());
         EXPECT_EQ(22, mesh.m_positions.size());
         EXPECT_EQ(12, mesh.m_positionFaces.size());
 

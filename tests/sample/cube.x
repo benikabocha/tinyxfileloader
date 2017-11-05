@@ -74,7 +74,7 @@ template MeshMaterialList {
 }
 
 
-Mesh {
+Mesh Cube {
  22;
  2.500000;2.500000;-2.500000;,
  2.500000;-2.500000;-2.500000;,
