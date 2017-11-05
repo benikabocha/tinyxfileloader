@@ -11,4 +11,4 @@ if(TINYXFILELOADER_ENABLE_TEST)
     add_subdirectory(tests)
 endif()
 
-add_executable(example example.cpp tinyxloader.h)
+add_executable(example example.cpp tinyxfileloader.h)
